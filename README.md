@@ -1,5 +1,7 @@
 # Cyber Resilience Act — Compliance Consultant Skill
 
+![Cyber Resilience Act skill demo](output.gif)
+
 An [Agent Skills](https://github.com/virgiliojr94/book-to-skill) knowledge base generated from the **Cyber Resilience Act — Regulation (EU) 2024/2847** (consolidated CELEX text + Official Journal L 2847) and the **European Commission's technical FAQs v13**, built for companies implementing full CRA compliance.
 
 The skill is written as a **compliance consultant toolkit**: scope tests, product classification (default / important Class I & II / critical), manufacturer/importer/distributor duty maps, Annex I requirement matrices, vulnerability-handling pipelines, the 24h/72h/14-day reporting ladder, conformity-assessment route selection (modules A / B+C / H), penalties and key dates — plus reusable engagement patterns and a decision-rule cheatsheet.
