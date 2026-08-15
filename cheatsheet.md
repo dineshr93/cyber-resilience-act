@@ -33,7 +33,7 @@ Waivers (narrow): micro/SME — only Art 14 early-warning deadline misses; OSS s
 | Date | What happens |
 |---|---|
 | **10 Dec 2024** | Entry into force |
-| **11 Jun 2026** | Ch IV (notification/market surveillance machinery) applies; MSAs to have enough notified bodies |
+| **11 Jun 2026** | Ch IV (conformity-assessment-body notification) applies; MSAs to have enough notified bodies |
 | **11 Sep 2026** | **Art 14 reporting obligations apply — incl. products placed on market before Dec 2027.** Reporting pipeline must be live by now. |
 | **11 Dec 2027** | General application of the whole Regulation |
 | 11 Dec 2030 (+ every 4y) | Commission evaluation/review reports — expect rule evolution |
@@ -41,7 +41,7 @@ Waivers (narrow): micro/SME — only Art 14 early-warning deadline misses; OSS s
 ## 5. Key thresholds & defaults (commit to these numbers)
 - Support period: **≥ 5 years** minimum (or expected use time if shorter) — Art 13(8).
 - Security update retention: **≥ 10 years** after issuance (or remainder of support period, whichever longer) — Art 13(9).
-- Reporting clocks from awareness: **24h** early warning → **72h** notification → **14 days after fix available** final report.
+- Reporting clocks from awareness: **24h** early warning → **72h** notification → final report **14 days after fix available** for vulnerabilities (Art 14(2)(c)), **within one month** after the incident notification for severe incidents (Art 14(4)(c)).
 - SBOM minimum: **top-level dependencies**, machine-readable (CycloneDX/SPDX recommended).
 - Security updates: **free of charge** for standard products; auto-update default-on with easy opt-out for consumer-facing products.
 

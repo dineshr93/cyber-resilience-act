@@ -43,12 +43,12 @@ For everything in scope, you are not an importer/distributor — you develop and
 
 **Support period: ≥5 years** (Art 13(8)). **Security updates retained ≥10 years** (Art 13(9)). **Security updates free** for standard products (Part II(8); only tailor-made B2B agreements excepted).
 
-## 5. Reporting — the highest-stakes obligation (Art 14, LIVE NOW)
+## 5. Reporting — the highest-stakes obligation (Art 14, LIVE from 11 Sep 2026)
 
-Reporting duties are **already in force since 11 September 2026** — before general application — and apply to ALL in-scope products, **including products placed before 11 Dec 2027** (Art 69(3)). If Bucket B products are in scope, your incident pipeline must be live now.
+Reporting duties **start on 11 September 2026** — before general application — and apply to ALL in-scope products, **including products placed before 11 Dec 2027** (Art 69(3)). If Bucket B products are in scope, your incident pipeline must be live by then.
 
 On **awareness** of an actively exploited vulnerability or severe product-security incident (not any CVE — reliable evidence of malicious exploitation, Art 3(42)):
-- **24h** early warning → **72h** notification → **final report ≤ 14 days after a fix is available**
+- **24h** early warning → **72h** notification → final report: **≤ 14 days after a fix is available** for vulnerabilities (Art 14(2)(c)), **within one month** after the incident notification for severe incidents (Art 14(4)(c))
 - File to the **national CSIRT coordinator AND ENISA** via the EU **single reporting platform** (Art 14(7), Art 16).
 - **Component exploits: you report for YOUR product even if the vendor/OEM also reports** (FAQ 5.4). Do not rely on the OEM or component vendor to cover you.
 
@@ -77,7 +77,7 @@ CRA attaches only to **placing/making available on the Union market** (Art 3(21)
 ## 8. Action list (priority order)
 
 1. **Now (urgent):** scoped counsel opinion on Art 2(2)(c) exclusion per product line — Bucket A vs Bucket B. Determines everything downstream.
-2. **Now (urgent):** stand up the **Art 14 reporting pipeline** (single-platform credentials, 24h/72h/14d runbook, detection triggers, on-call) — already mandatory for in-scope products.
+2. **Now (urgent):** stand up the **Art 14 reporting pipeline** (single-platform credentials, 24h/72h/14d runbook, detection triggers, on-call) — mandatory for in-scope products from 11 Sep 2026.
 3. **Per in-scope product line:** classification memo (Art 7/8, Annex III/IV) → conformity route (module A vs B+C/H vs EUCC), notified body if mandatory. Start notified-body engagement early — body bottleneck (Art 35(2)) makes lead time the constraint.
 4. **Build the four standing artifacts** (risk assessment, Annex I matrix, SBOM, vulnerability pipeline) with a single source of truth, audit-ready for Art 53 access.
 5. **Commit support-period + update-retention cost** (≥5y / ≥10y) in the business case before launch.
@@ -87,7 +87,7 @@ CRA attaches only to **placing/making available on the Union market** (Art 3(21)
 ---
 
 **Two highest-stakes facts:**
-- **Reporting (Art 14) is live now** (since 11 Sep 2026) and applies to pre-2027 in-scope products — a missed clock is a Tier-1 fine (€15M/2.5%).
+- **Reporting (Art 14) applies from 11 Sep 2026** (not yet live as of the base's 2026-08-15 generation) and covers pre-2027 in-scope products — a missed clock is a Tier-1 fine (€15M/2.5%).
 - **The Art 2(2)(c) vehicle type-approval exclusion** is your best and worst news: it likely removes type-approved ECU/infotainment components from CRA scope, but the boundary for a component supplier is not fully settled — get counsel per product line, and treat Bucket B (standalone software/remote data processing) as firmly in scope.
 
 This is guidance based on the regulation text and Commission technical FAQs (preliminary, ~2 years pre-application; re-verify for time-sensitive decisions). Route borderline classification/exclusion calls to counsel.

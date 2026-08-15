@@ -1,6 +1,6 @@
-# Reporting Runbook — Art 14 (24h / 72h / 14-day)
+# Reporting Runbook — Art 14 (24h / 72h / final report)
 
-**Status:** MANDATORY from 11 Sep 2026 for all in-scope products, including placed before 11 Dec 2027 (Art 69(3)). Live now for Bucket B.
+**Status:** MANDATORY from 11 Sep 2026 for all in-scope products, including placed before 11 Dec 2027 (Art 69(3)). Set up now; the clock becomes live on that date.
 **Basis:** Regulation (EU) 2024/2847 Art 14–17, Art 3(42)/(44), Art 16 (single platform); Commission FAQs v13 (5.1/5.3/5.4).
 
 ## Trigger — when does the clock start?
@@ -14,7 +14,7 @@
 |---|---|---|
 | 1 — Early warning | **24h** | Member States where product is known to be available; whether unlawful/malicious acts suspected |
 | 2 — Notification | **72h** | General product info, nature of exploit/vulnerability, corrective/mitigating measures taken or user-available, sensitivity assessment |
-| 3 — Final report | **≤ 14 days after fix available** | Vulnerability description + severity + impact, malicious-actor info where known, details of the security update/remediation |
+| 3 — Final report | **≤ 14 days after fix available** (vulnerabilities, Art 14(2)(c)); **within one month** after the incident notification (severe incidents, Art 14(4)(c)) | Vulnerability description + severity + impact, malicious-actor info where known, details of the security update/remediation; or incident description + severity + impact + likely trigger/root cause |
 
 ## Channels (Art 14(7), Art 16)
 - Simultaneously to: **national CSIRT designated as coordinator** AND **ENISA**.

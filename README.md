@@ -56,7 +56,7 @@ That run produces an `artifacts/` folder — the actionable deliverables the con
 
 | File | What it is |
 |---|---|
-| `artifacts/00-executive-summary.md` | Top-line verdict: scope falls into two buckets (type-approved components likely out via Art 2(2)(c), standalone software/remote-data-processing firmly in), your role = manufacturer (Art 13+14), reporting is live now (Art 14, Tier-1 fines), non-EU exposure is contractual (UNECE R155 flow-down), plus a priority action list |
+| `artifacts/00-executive-summary.md` | Top-line verdict: scope falls into two buckets (type-approved components likely out via Art 2(2)(c), standalone software/remote-data-processing firmly in), your role = manufacturer (Art 13+14), reporting applies from 11 Sep 2026 (Art 14, Tier-1 fines), non-EU exposure is contractual (UNECE R155 flow-down), plus a priority action list |
 | `artifacts/01-scope-memo.md` | The Art 2(1) 3-question test + exclusion ladder, with the Bucket A vs Bucket B classification and the counsel flag |
 | `artifacts/02-role-matrix.md` | Stakeholder → CRA role mapping (you, OEM, reseller, importer, distributor) with the Art 21–22 manufacturer-escalation traps and contract-review checklist |
 | `artifacts/03-annex-i-matrix.md` | Requirement-by-requirement Annex I (a)–(m) + Part II(1)–(8) applicability template with control → evidence pairs |
@@ -77,7 +77,7 @@ The same invocation pattern works for any engagement — swap the prompt and the
 | `SKILL.md` | Core decision rules, chapter + topic indexes |
 | `chapters/ch01–ch08` | Scope & classification · manufacturer duties (Art 13) · Annex I requirements · reporting (Art 14–17) · conformity assessment & CE · importers/distributors/OSS stewards · penalties, surveillance & dates · Commission FAQ guidance |
 | `cheatsheet.md` | Decision tables: scope test, tier→route matrix, fine tiers, hard dates, tells & smells |
-| `patterns.md` | 10 reusable engagement patterns (scope memo, role matrix, reporting runbook…) |
+| `patterns.md` | 11 reusable engagement patterns (scope memo, role matrix, reporting runbook…) |
 | `glossary.md` | Key terms with article references |
 
 ## Notes

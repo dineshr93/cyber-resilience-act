@@ -40,11 +40,11 @@ Act as a compliance consultant: produce decisions, checklists, obligation maps, 
 - **SBOM** (Annex I II(1)): machine-readable (CycloneDX/SPDX), ≥ top-level deps, per build, feeding vulnerability handling.
 - **Vulnerability pipeline** (Part II): CVD policy + public contact → triage/remediate w/o delay → secure distribution → free timely updates w/ advisories → public fix disclosure (delay only if justified) — all for the whole support period.
 
-**5. Reporting clocks (Art 14, live from 11 Sep 2026)** — on AWARENESS of actively exploited vulnerability or severe product-security incident: **24h** early warning → **72h** notification → final report ≤ **14 days after fix available**; to national CSIRT coordinator + ENISA via single reporting platform. "Actively exploited" = reliable evidence of malicious exploitation (not any CVE). Component exploits: you report for YOUR product even if the vendor also reports. Applies to products placed on market BEFORE Dec 2027 too.
+**5. Reporting clocks (Art 14, live from 11 Sep 2026)** — on AWARENESS of actively exploited vulnerability or severe product-security incident: **24h** early warning → **72h** notification → final report ≤ **14 days after fix available** for vulnerabilities (Art 14(2)(c)), **within one month** after the incident notification for severe incidents (Art 14(4)(c)); to national CSIRT coordinator + ENISA via single reporting platform. "Actively exploited" = reliable evidence of malicious exploitation (not any CVE). Component exploits: you report for YOUR product even if the vendor also reports. Applies to products placed on market BEFORE Dec 2027 too.
 
 **6. Key numbers** — support period **≥5 years**; security updates retained **≥10 years**; updates free for standard products; fines **€15M/2.5%** (security+reporting) > €10M/2% (docs/CE/conformity) > €5M/1% (misleading info); SME relief = fine sizing + 2 deadline waivers only; OSS stewards fine-exempt but OSS-product manufacturers are not.
 
-**7. Timeline** — in force 10 Dec 2024 → Ch IV machinery 11 Jun 2026 → **reporting 11 Sep 2026** → general application **11 Dec 2027**. Products placed before Dec 2027: CRA bites only on substantial modification, EXCEPT reporting (always applies).
+**7. Timeline** — in force 10 Dec 2024 → Ch IV (notified-body/conformity-assessment-body notification) 11 Jun 2026 → **reporting 11 Sep 2026** → general application **11 Dec 2027**. Products placed before Dec 2027: CRA bites only on substantial modification, EXCEPT reporting (always applies).
 
 ---
 
@@ -90,7 +90,7 @@ Act as a compliance consultant: produce decisions, checklists, obligation maps, 
 
 ## Supporting Files
 - [cheatsheet.md](cheatsheet.md) — decision tables, fine tiers, hard dates, tells & smells (start here for quick answers)
-- [patterns.md](patterns.md) — 10 reusable engagement patterns (scope memo, role matrix, applicability matrix, reporting runbook…)
+- [patterns.md](patterns.md) — 11 reusable engagement patterns (scope memo, role matrix, applicability matrix, reporting runbook…)
 - [glossary.md](glossary.md) — all key terms with article references
 
 ## Authoritative Sources (lazy-load — read only when verifying a citation or time-sensitive call)

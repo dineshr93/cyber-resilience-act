@@ -27,9 +27,9 @@ Reusable engagement patterns. **When to use / How / Trade-offs** for each.
 **How**: build per stage — intake (CVD policy + public contact, Part II(5)/(6)) → triage & remediate (SBOM-driven, security updates separate from features where feasible, II(1)/(2)/(3)) → release (secure/automatic distribution, II(7); free, timely, with advisories, II(8)) → disclose (public fix info after users can patch; justified delay only, II(4)).
 **Trade-offs**: tooling upfront cost; without it each vulnerability is a manual fire-fighting event that will miss the 24h/72h reporting clocks.
 
-## Reporting Runbook (24h / 72h / 14d)
+## Reporting Runbook (24h / 72h / final report)
 **When to use**: before 11 Sept 2026 for any in-scope product; mandatory thereafter (Art 14).
-**How**: define the "awareness" trigger (what evidence counts as actively exploited); assign on-call filer; pre-draft stage-1/2/3 templates; obtain single-reporting-platform credentials; rehearse end-to-end once; route voluntary/third-party reports through the same intake.
+**How**: define the "awareness" trigger (what evidence counts as actively exploited); assign on-call filer; pre-draft stage-1/2/3 templates — noting the final-report deadline differs by event type (14 days after a fix for vulnerabilities, Art 14(2)(c); one month after the incident notification for severe incidents, Art 14(4)(c)); obtain single-reporting-platform credentials; rehearse end-to-end once; route voluntary/third-party reports through the same intake.
 **Trade-offs**: cheap to build, catastrophic to miss (Tier-1 fines); micro/SME waiver covers only the early-warning deadline misses.
 
 ## Standards-Coverage Tracker

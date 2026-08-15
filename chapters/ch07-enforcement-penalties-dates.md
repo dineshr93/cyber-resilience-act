@@ -17,7 +17,7 @@ Enforcement is real and tiered: administrative fines up to €15M / 2.5% of worl
 ## Key Concepts
 - **Application timeline (Art 71 + Art 69/70)**:
   - Entry into force: 20 days after OJ publication → **10 December 2024**.
-  - **Chapter IV (Arts 35–51, notification/market-surveillance machinery): applies from 11 June 2026.**
+  - **Chapter IV (Arts 35–51, notified-body/conformity-assessment-body notification framework): applies from 11 June 2026.**
   - **Art 14 reporting obligations: apply from 11 September 2026** — before general application; your client's incident pipeline must be live by then.
   - **General application: 11 December 2027.**
 - **Transitional rule (Art 69(2)–(3))**: products placed on market *before* 11 Dec 2027 are caught only upon substantial modification — but Art 14 reporting applies to ALL in-scope products regardless of placement date. Legacy fleets still need the reporting machinery.
