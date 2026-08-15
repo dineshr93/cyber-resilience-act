@@ -44,6 +44,26 @@ Once installed, the agent auto-loads this skill whenever you ask anything CRA-re
 
 For a quick answer start with `cheatsheet.md` (decision tables); for a deeper engagement ask for `patterns.md` (scope memo, role matrix, reporting runbook, …) or a specific `chXX` chapter.
 
+### Worked example — component supplier to automotive OEMs
+
+Invoke the skill by name with a real engagement prompt, and it returns a set of decision artifacts (not just a summary). Example:
+
+```bash
+/cyber-resilience-act what are the suppliers obligations who sells ECU and Infotainment software to OEMs both in EU and non-EU market. We are sell ECU hardare too for some OEMs. Provide an actionable executive summary. stick to facts as it is high stake penalities are involved for bad adise.
+```
+
+That run produces an `artifacts/` folder — the actionable deliverables the consultant would hand a client:
+
+| File | What it is |
+|---|---|
+| `artifacts/00-executive-summary.md` | Top-line verdict: scope falls into two buckets (type-approved components likely out via Art 2(2)(c), standalone software/remote-data-processing firmly in), your role = manufacturer (Art 13+14), reporting is live now (Art 14, Tier-1 fines), non-EU exposure is contractual (UNECE R155 flow-down), plus a priority action list |
+| `artifacts/01-scope-memo.md` | The Art 2(1) 3-question test + exclusion ladder, with the Bucket A vs Bucket B classification and the counsel flag |
+| `artifacts/02-role-matrix.md` | Stakeholder → CRA role mapping (you, OEM, reseller, importer, distributor) with the Art 21–22 manufacturer-escalation traps and contract-review checklist |
+| `artifacts/03-annex-i-matrix.md` | Requirement-by-requirement Annex I (a)–(m) + Part II(1)–(8) applicability template with control → evidence pairs |
+| `artifacts/04-reporting-runbook.md` | The 24h/72h/14-day Art 14 ladder, channels (CSIRT + ENISA single platform), component-exploit rule, and operational checklist |
+
+The same invocation pattern works for any engagement — swap the prompt and the skill writes the matching artifact set under `artifacts/`.
+
 ### Worked example
 
 > **Prompt:** "We manufacture a smart-home security hub. Which conformity route do we need, and what standing artifacts must we keep?"
