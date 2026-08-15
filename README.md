@@ -4,22 +4,51 @@ An [Agent Skills](https://github.com/virgiliojr94/book-to-skill) knowledge base 
 
 The skill is written as a **compliance consultant toolkit**: scope tests, product classification (default / important Class I & II / critical), manufacturer/importer/distributor duty maps, Annex I requirement matrices, vulnerability-handling pipelines, the 24h/72h/14-day reporting ladder, conformity-assessment route selection (modules A / B+C / H), penalties and key dates — plus reusable engagement patterns and a decision-rule cheatsheet.
 
-## Install on any Agent Skills host
+## Install
+
+The skill works on any Agent Skills host. Two options:
+
+### Option A — `npx skills add` (book-to-skill / Agent Skills host)
 
 ```bash
 npx skills add https://github.com/dineshr93/cyber-resilience-act --skill cyber-resilience-act
 ```
 
-Or copy the folder into your agent's skill directory (e.g. `~/.hermes/skills/`, `~/.claude/skills/`, `.agents/skills/`).
+### Option B — copy the folder into your agent's skills directory
 
-## Usage
+Clone (or download) the repo, then copy the `cyber-resilience-act/` folder into your agent's skills path:
 
-Ask your agent for `cyber-resilience-act` to load the core decision rules, or ask about a topic:
+```bash
+git clone https://github.com/dineshr93/cyber-resilience-act.git
+cp -r cyber-resilience-act ~/.hermes/skills/          # Hermes Agent
+cp -r cyber-resilience-act ~/.claude/skills/          # Claude Code / Claude Desktop
+cp -r cyber-resilience-act .agents/skills/            # other Agent Skills hosts
+```
 
-- "Is my product in scope under CRA?"
-- "We white-label a Class I router — what are our obligations?"
-- "What must be done by 11 September 2026 (reporting) and 11 December 2027 (general application)?"
-- "Build the Annex I applicability matrix for a smart thermostat"
+The folder is fully self-contained: `SKILL.md` is the entry point, with `chapters/`, `cheatsheet.md`, `patterns.md`, and `glossary.md` alongside it. No external dependencies and no runtime network calls — the knowledge base is read locally by the agent.
+
+## Leverage — what to ask
+
+Once installed, the agent auto-loads this skill whenever you ask anything CRA-related and answers as a compliance consultant — producing decisions, obligation maps, checklists, and tooling recommendations rather than summaries of the regulation. Ask for the skill by name, a topic, or a chapter:
+
+| You ask… | The skill returns… |
+|---|---|
+| "Is my product in scope under CRA?" | The Art 2(1) scope test plus the exclusion chain, with citations |
+| "We white-label a Class I router — what are our obligations?" | Role-escalation analysis: you become the manufacturer (Art 21–22) |
+| "What must be done by 11 September 2026 and 11 December 2027?" | The 24h/72h/14-day reporting ladder and the application timeline |
+| "Build the Annex I applicability matrix for a smart thermostat" | The (a)–(m) requirement matrix with N/A justifications |
+| "Which conformity route do we need for a VPN client?" | Module A vs B+C vs H, keyed to harmonised-standard coverage |
+| "What are the fines if we miss a reporting deadline?" | Fine tiers plus the narrow SME/OSS steward waivers |
+| "We're an OSS foundation — do we have obligations?" | OSS steward vs OSS-product-manufacturer distinction |
+| "What chapters do you have?" | The chapter + topic index for browsing |
+
+For a quick answer start with `cheatsheet.md` (decision tables); for a deeper engagement ask for `patterns.md` (scope memo, role matrix, reporting runbook, …) or a specific `chXX` chapter.
+
+### Worked example
+
+> **Prompt:** "We manufacture a smart-home security hub. Which conformity route do we need, and what standing artifacts must we keep?"
+>
+> The skill loads ch01 (classification) + ch05 (conformity) and returns: the hub's core functionality (smart-home security) lands it in **Important Class I**, so module A self-declaration is available **only if** you fully apply OJ-published harmonised standards; otherwise a notified body (B+C or H) is required. It then lists the four standing artifacts every manufacturer must keep — living risk assessment, the Annex I (a)–(m) applicability matrix, a machine-readable SBOM, and the vulnerability-handling pipeline — and flags that white-labelling would escalate your duties.
 
 ## Contents
 
@@ -28,7 +57,7 @@ Ask your agent for `cyber-resilience-act` to load the core decision rules, or as
 | `SKILL.md` | Core decision rules, chapter + topic indexes |
 | `chapters/ch01–ch08` | Scope & classification · manufacturer duties (Art 13) · Annex I requirements · reporting (Art 14–17) · conformity assessment & CE · importers/distributors/OSS stewards · penalties, surveillance & dates · Commission FAQ guidance |
 | `cheatsheet.md` | Decision tables: scope test, tier→route matrix, fine tiers, hard dates, tells & smells |
-| `patterns.md` | 9 reusable engagement patterns (scope memo, role matrix, reporting runbook…) |
+| `patterns.md` | 10 reusable engagement patterns (scope memo, role matrix, reporting runbook…) |
 | `glossary.md` | Key terms with article references |
 
 ## Notes

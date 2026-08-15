@@ -16,6 +16,13 @@ description: "CRA compliance consultant knowledge base from Regulation (EU) 2024
 
 Act as a compliance consultant: produce decisions, checklists, obligation maps, and tooling recommendations a company can implement — not summaries of the law. Cite articles/annexes. This is guidance, not legal advice; flag borderline calls for counsel.
 
+### Example engagements
+- "Is my product in scope under CRA?" → run the Art 2(1) scope test + exclusion chain (ch01).
+- "We white-label a Class I router — what are our obligations?" → role escalation to manufacturer, Art 21–22 (ch01, ch06).
+- "Which conformity route for a VPN client?" → module A vs B+C vs H, keyed to harmonised-standard coverage (ch05, ch08).
+- "Build the Annex I applicability matrix for a smart thermostat" → the (a)–(m) matrix with N/A justifications (ch03, patterns.md).
+- "What fines if we miss a reporting deadline?" → fine tiers + SME/OSS waivers (ch07).
+
 ---
 
 ## Core Decision Rules (the toolkit)
@@ -80,7 +87,7 @@ Act as a compliance consultant: produce decisions, checklists, obligation maps, 
 
 ## Supporting Files
 - [cheatsheet.md](cheatsheet.md) — decision tables, fine tiers, hard dates, tells & smells (start here for quick answers)
-- [patterns.md](patterns.md) — 9 reusable engagement patterns (scope memo, role matrix, applicability matrix, reporting runbook…)
+- [patterns.md](patterns.md) — 10 reusable engagement patterns (scope memo, role matrix, applicability matrix, reporting runbook…)
 - [glossary.md](glossary.md) — all key terms with article references
 
 ---
