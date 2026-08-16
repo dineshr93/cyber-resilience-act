@@ -1,5 +1,7 @@
 # Cyber Resilience Act — Compliance Consultant Skill
 
+![Cyber Resilience Act](cra.jpg)
+
 ![Cyber Resilience Act skill demo](output.gif)
 
 An [Agent Skills](https://github.com/virgiliojr94/book-to-skill) knowledge base generated from the **Cyber Resilience Act — Regulation (EU) 2024/2847** (consolidated CELEX text + Official Journal L 2847) and the **European Commission's technical FAQs v13**, built for companies implementing full CRA compliance.
