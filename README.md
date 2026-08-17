@@ -89,6 +89,19 @@ The same invocation pattern works for any engagement — swap the prompt and the
 - Content is **synthesized summaries and decision rules**, not the raw regulation text. The authoritative texts are [EUR-Lex: Regulation (EU) 2024/2847](https://eur-lex.europa.eu/eli/reg/2024/2847/oj) and the Commission's CRA FAQs.
 - This is compliance guidance, **not legal advice**. Borderline classification or sectoral-interplay calls should be routed to counsel.
 - Harmonised-standard coverage (the Class I self-declaration escape hatch) and FAQ content evolve — re-verify current state for time-sensitive decisions.
+- Primary official links (EUR-Lex / Official Journal)
+
+- Full authentic text (HTML/PDF): https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2847
+or direct PDF: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024R2847
+- ELI (European Legislation Identifier): http://data.europa.eu/eli/reg/2024/2847/oj
+- Consolidated version (with corrigenda): https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2847-20241120
+Published in the Official Journal of the European Union, L series, 20 November 2024 (OJ L, 2024/2847).
+
+- European Commission official pages
+
+- Main CRA policy page: https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act
+- Implementation page: https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation
+- Summary of the legislative text: https://digital-strategy.ec.europa.eu/en/policies/cra-summary
 
 ## License
 
